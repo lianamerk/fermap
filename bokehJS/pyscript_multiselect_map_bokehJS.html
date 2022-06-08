@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <title>PyScript With BokehJS</title>
+   
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.2.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.4.2.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-2.4.2.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@holoviz/panel@0.13.0-rc.10/dist/panel.min.js"></script>
+
+    <script type="text/javascript">
+      Bokeh.set_log_level("info");
+    </script>
+
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+  </head>
+
+  <py-env>
+  - bokeh
+  - numpy
+  - pandas
+  - panel==0.13.1a2
+
+  </py-env>
+
+  <body>
+    <div id="container">
+      <div id="map">
+      	
+
+      </div>
+      <div id="selector">
+      	
+
+      </div>
+	</div>
+      
+
+    <py-script>
+import asyncio
+import panel as pn
+
+import pandas as pd
+import numpy as np
+
+import bokeh.plotting
+import bokeh.io
+from bokeh.plotting import figure, show, row
+from bokeh.models import ColumnDataSource, CustomJS, MultiChoice
+
+from pyodide.http import open_url
+
+
+from bokeh.tile_providers import CARTODBPOSITRON, get_provider
+
+tile_provider = get_provider(CARTODBPOSITRON)
+
+
+url = 'https://raw.githubusercontent.com/lianamerk/fermap/main/data/ferm.csv?token=GHSAT0AAAAAABUVMIRCXGDP6GFUYNN4SBHIYUFKDGA'
+
+# Load in the metadata
+<!-- ferm_locations = pd.read_csv(open_url("data/ferm.csv")) -->
+ferm_locations = pd.read_csv(open_url(url))
+
+
+# Split the Lat-Long column into two columns, Lat and Long
+ferm_locations[['Lat', 'Long']] = ferm_locations['Lat-Long'].str.split(', ', 1, expand=True)
+
+# Create a new dataframe only if the point has a valid Lat and Long
+ferm_locations_final = ferm_locations[ferm_locations['Lat'].notna()].copy()
+
+# Convert from a string, and put in columns called Latitude and Longitude
+ferm_locations_final.loc[:,'Latitude1'] = pd.to_numeric(ferm_locations_final['Lat'],errors='coerce')
+ferm_locations_final.loc[:,'Longitude1'] = pd.to_numeric(ferm_locations_final['Long'],errors='coerce')
+
+
+def mercator_creator(df, lat='lat', lon='lon'):
+    # from https://www.youtube.com/watch?v=BojxegBh9_4
+    
+    k = 6378137
+    df['x'] = k * np.radians(df[lon])
+    df['y'] = np.log(np.tan((90 + df[lat]) * np.pi / 360)) * k
+    
+    return df
+
+ferm_locations_final = mercator_creator(ferm_locations_final, lat='Latitude1', lon='Longitude1')
+class_options = list(ferm_locations_final.Class.unique())
+
+
+chosen_cds = bokeh.models.ColumnDataSource(
+    {
+        "x": ferm_locations_final["x"],
+        "y": ferm_locations_final["y"],
+        "color": ["#1f77b3"] * len(ferm_locations_final),
+    }
+)
+
+
+plot = bokeh.plotting.figure(
+    frame_height=400,
+    frame_width=700,
+    x_axis_label="Latitude",
+    y_axis_label="Longitude",
+    tools =['hover', 'wheel_zoom', 'pan', 'reset'],
+    x_axis_type = 'mercator',
+    y_axis_type = 'mercator',
+    x_range = [ferm_locations_final.x.min()-100000, ferm_locations_final.x.max() + 100000],
+    y_range = [ferm_locations_final.y.min()-100000, ferm_locations_final.y.max() + 100000]
+    
+)
+
+unique_classes = ferm_locations_final.Class.unique()
+name_dict={'name':[],'legend':[],'label':[]}
+
+for Class in unique_classes:  
+    source = ColumnDataSource(ferm_locations_final[ferm_locations_final['Class']==Class])
+    name_glyph = plot.circle('x', 'y', source=source, legend_label=Class)
+    name_dict['name'].append(name_glyph)
+    name_dict['label'].append(Class)
+    
+
+name_legend_dict={'name':[]}
+for label in range(len(unique_classes)):
+    name_dict['legend'].append(plot.legend.items[label])
+
+# Set up MultiChoice widget
+initial_value = [unique_classes[0]]
+options = list(unique_classes)
+
+for i in range(len(options)):
+    if name_dict['label'][i] in initial_value:
+        name_dict['name'][i].visible = True;
+        name_dict['legend'][i].visible = True;
+    else:
+        name_dict['name'][i].visible = False;
+        name_dict['legend'][i].visible = False;   
+
+
+multi_choice = MultiChoice(value=initial_value, options=options, max_items=12, title='Selection:')
+
+
+callback = CustomJS(args=dict(name_dict=name_dict, multi_choice=multi_choice), code="""
+var selected_vals = multi_choice.value;
+var index_check = [];
+
+for (var i = 0; i < name_dict['name'].length; i++) {
+    index_check[i]=selected_vals.indexOf(name_dict['label'][i]);
+        if ((index_check[i])>= 0) {
+            name_dict['name'][i].visible = true;
+            name_dict['legend'][i].visible = true;
+            }
+        else {
+            name_dict['name'][i].visible = false;
+            name_dict['legend'][i].visible = false;
+        }
+        
+    }
+""")
+
+multi_choice.js_on_change('value', callback)
+
+plot.legend.background_fill_alpha = 0.25
+plot.add_tile(tile_provider)
+
+layout = bokeh.layouts.row(
+    plot, bokeh.models.Spacer(width=30), multi_choice
+)
+
+async def show(plot, target):
+    pydoc, model_json = doc_json(plot, target)
+    views = await Bokeh.embed.embed_item(JSON.parse(model_json))
+    jsdoc = views[0].model.document
+    _link_docs(pydoc, jsdoc)
+
+await pn.io.pyodide.show(layout, 'map')
+
+    </py-script>
+  </body>
+</html>
