@@ -1,0 +1,363 @@
+Sample_ID,Type,Brand,Lat-Long,Location_made,Grouping,Class,Acquisition_date,Extract_date,Extraction_ID,Location_Type_made,Country_obtained,Milk_Type,Ferment_days
+LNM1,Fresh_raw_sheep_cheese,Local,"43.66547031455824, 2.45386246303461",Fontrieu,,Dairy,5-Dec-21,6-Dec-21,E1,Farm,France,Sheep,
+LNM2,Raw_Roquefort_Carles_blue_cheese,Local,"44.292650976542205, 2.51639218754828",Aveyron,,Dairy,5-Dec-21,6-Dec-21,E1,Farm,France,Sheep,
+LNM3,Raw_saint_felicien_cheese,Local,"45.48304781253344, 5.174886964350282",Dauphine,,Dairy,5-Dec-21,6-Dec-21,E1,Farm,France,Cow,
+LNM4,Raw_goat_buchette_cheese,Local,"43.84129813071417, 2.1575430725683145",Tarn,,Dairy,5-Dec-21,6-Dec-21,E1,Farm,France,Goat,
+LNM5,Raw_goat_rocamadour_cheese,Local,"44.822546764540235, 1.6320714859475425",Lot,,Dairy,5-Dec-21,6-Dec-21,E1,Farm,France,Goat,
+LNM6,Cow_faisselle,Local,"44.788491248084874, 1.4620661367100003",Payrac,,Dairy,5-Dec-21,6-Dec-21,E1,Farm,France,Cow,
+LNM7,Fresh_raw_goat_cheese,Local,"43.60438594396163, 1.455788544778122",Unknown,,Dairy,5-Dec-21,6-Dec-21,E1,Farm,France,Goat,
+LNM8,Cow_skyr,Danone,"48.86922181622034, 2.1806112894571856",Rueil-Malmaison,,Dairy,3-Dec-21,6-Dec-21,E1,Industrial,France,Cow,
+LNM9,Water_kefir,Home,"43.53930339184508, 1.4655985560696239",Ramonville,,Dairy,6-Dec-21,6-Dec-21,E1,Home,France,NA,
+LNM10,Sheep_skyr,Local,"43.59906690491448, 1.4358128407569684",Toulouse,,Dairy,7-Dec-21,8-Dec-21,E2,Fromagerie,France,Sheep,
+LNM11,Sheep_fromage_blanc,Local,"43.59906690491448, 1.4358128407569684",Toulouse,,Dairy,7-Dec-21,8-Dec-21,E2,Fromagerie,France,Sheep,
+LNM12,Fresh_raw_sheep_cheese,Local,"43.59906690491448, 1.4358128407569684",Toulouse,,Dairy,7-Dec-21,8-Dec-21,E2,Fromagerie,France,Sheep,
+LNM13,Raw_sheep_milk,Local,"43.59906690491448, 1.4358128407569684",Toulouse,,Dairy,7-Dec-21,8-Dec-21,E2,Fromagerie,France,Sheep,
+LNM14,Fresh_sheep_cheese,Local,"43.59906690491448, 1.4358128407569684",Toulouse,,Dairy,7-Dec-21,8-Dec-21,E2,Fromagerie,France,Sheep,
+LNM15,Sheep_yogurt,Local,"43.59906690491448, 1.4358128407569684",Toulouse,,Dairy,7-Dec-21,8-Dec-21,E2,Fromagerie,France,Sheep,
+LNM16,Buffalo_yogurt_with_nuts,Local,"43.59906690491448, 1.4358128407569684",Toulouse,,Dairy,7-Dec-21,8-Dec-21,E2,Fromagerie,France,Water_Buffalo,
+LNM17,Raw_sheep_confine_cheese_rind,Local,"43.59906690491448, 1.4358128407569684",Toulouse,Cheese_pair_1,Dairy,7-Dec-21,8-Dec-21,E2,Fromagerie,France,Sheep,
+LNM18,Raw_sheep_confine_cheese_core,Local,"43.59906690491448, 1.4358128407569684",Toulouse,Cheese_pair_1,Dairy,7-Dec-21,8-Dec-21,E2,Fromagerie,France,Sheep,
+LNM19,Raw_sheep_cheese_rind,Local,"43.59906690491448, 1.4358128407569684",Toulouse,Cheese_pair_2,Dairy,7-Dec-21,8-Dec-21,E2,Fromagerie,France,Sheep,
+LNM20,Raw_sheep_cheese_core,Local,"43.59906690491448, 1.4358128407569684",Toulouse,Cheese_pair_2,Dairy,7-Dec-21,8-Dec-21,E2,Fromagerie,France,Sheep,
+LNM21,Raw_sheep_cheese_rind,Local,"43.59906690491448, 1.4358128407569684",Toulouse,Cheese_pair_3,Dairy,7-Dec-21,8-Dec-21,E2,Fromagerie,France,Sheep,
+LNM22,Raw_sheep_cheese_core,Local,"43.59906690491448, 1.4358128407569684",Toulouse,Cheese_pair_3,Dairy,7-Dec-21,8-Dec-21,E2,Fromagerie,France,Sheep,
+LNM23,Munster_cheese_rind,Local,"48.375304227583065, 7.2757575355031845",Breitenbach,,Dairy,7-Dec-21,8-Dec-21,E2,Farm,France,Sheep,
+LNM24,Buffalo_munster_style_cheese_rind,Local,"43.59906690491448, 1.4358128407569684",Toulouse,Cheese_pair_4,Dairy,7-Dec-21,8-Dec-21,E2,Fromagerie,France,Water_Buffalo,
+LNM25,Buffalo_munster_style_cheese_core,Local,"43.59906690491448, 1.4358128407569684",Toulouse,Cheese_pair_4,Dairy,7-Dec-21,8-Dec-21,E2,Fromagerie,France,Water_Buffalo,
+LNM26,Pave_Toulousain_Cheese_3_mon,Local,"44.292650976542205, 2.51639218754828",Aveyron,,Dairy,9-Dec-21,14-Dec-21,E3,Farm,France,Cow,90
+LNM27,Pave_Toulousain_Cheese_w_poivres_5_mon,Local,"44.292650976542205, 2.51639218754828",Aveyron,,Dairy,9-Dec-21,14-Dec-21,E3,Farm,France,Cow,150
+LNM28,Bethmale_Cheese,Local,"42.946070666414656, 1.7846400714382886",Ariege,,Dairy,9-Dec-21,14-Dec-21,E3,Farm,France,Cow,
+LNM29,Toudeille_Cheese,Local,"42.946070666414656, 1.7846400714382886",Ariege,,Dairy,9-Dec-21,14-Dec-21,E3,Farm,France,Cow,
+LNM30,Creme_fraiche,Local,"49.1541118387114, 0.18627312940552734",Normandy,,Dairy,9-Dec-21,14-Dec-21,E3,Farm,France,Cow,2
+LNM31,Raw_sheep_milk,Local,"43.59906690491448, 1.4358128407569684",Toulouse,,Dairy,10-Dec-21,14-Dec-21,E3,Fromagerie,France,Sheep,0
+LNM32,Raw_sheep_Cheese_hour_4,Local,"43.59906690491448, 1.4358128407569684",Toulouse,Cheese_evolution_1,Dairy,10-Dec-21,14-Dec-21,E3,Fromagerie,France,Sheep,0.2
+LNM33,Raw_sheep_Cheese_hour_6,Local,"43.59906690491448, 1.4358128407569684",Toulouse,Cheese_evolution_1,Dairy,10-Dec-21,14-Dec-21,E3,Fromagerie,France,Sheep,0.25
+LNM34,Raw_sheep_Cheese_hour_9,Local,"43.59906690491448, 1.4358128407569684",Toulouse,Cheese_evolution_1,Dairy,10-Dec-21,14-Dec-21,E3,Fromagerie,France,Sheep,0.4
+LNM35,Raw_goat_cheese_day_1,Local,"43.371609443735544, 1.3084453639553413",Mauzac,Cheese_evolution_2,Dairy,13-Dec-21,14-Dec-21,E3,Farm,France,Goat,1
+LNM36,Raw_goat_cheese_day_2,Local,"43.371609443735544, 1.3084453639553413",Mauzac,Cheese_evolution_2,Dairy,13-Dec-21,14-Dec-21,E3,Farm,France,Goat,2
+LNM37,Raw_goat_cheese_day_3,Local,"43.371609443735544, 1.3084453639553413",Mauzac,Cheese_evolution_2,Dairy,13-Dec-21,14-Dec-21,E3,Farm,France,Goat,3
+LNM38,Raw_goat_cheese_day_17,Local,"43.371609443735544, 1.3084453639553413",Mauzac,Cheese_evolution_2,Dairy,13-Dec-21,14-Dec-21,E3,Farm,France,Goat,17
+LNM39,Raw_goat_cheese_day_170,Local,"43.371609443735544, 1.3084453639553413",Mauzac,Cheese_evolution_2,Dairy,13-Dec-21,14-Dec-21,E3,Farm,France,Goat,120
+LNM40,NEG_CTRL,Lab,"43.58942076510702, 1.4410493132090292",Toulouse,,Control,14-Dec-21,14-Dec-21,E3,Lab,France,NA,NA
+LNM41,Flour,Local,"42.946070666414656, 1.7846400714382886",Ariege,Sourdough_1,Grain,15-Dec-21,15-Dec-21,E4,Farm,France,NA,NA
+LNM42,Sourdough_usable,Local,"43.595279507558864, 1.445885516348969",Toulouse,Sourdough_1,Grain,15-Dec-21,15-Dec-21,E4,Boulangerie,France,NA,0.1
+LNM43,Sourdough_acid_crash,Local,"43.595279507558864, 1.445885516348969",Toulouse,Sourdough_1,Grain,15-Dec-21,15-Dec-21,E4,Boulangerie,France,NA,0.25
+LNM44,Baking_table_swab,Lab,"43.595279507558864, 1.445885516348969",Toulouse,Sourdough_1,Grain,15-Dec-21,15-Dec-21,E4,Boulangerie,France,NA,NA
+LNM45,Hand_swab,Lab,"43.595279507558864, 1.445885516348969",Toulouse,Sourdough_1,Grain,15-Dec-21,15-Dec-21,E4,Boulangerie,France,NA,NA
+LNM46,SWAB_NEG_CTRL,Lab,"43.595279507558864, 1.445885516348969",Toulouse,Sourdough_1,Control,15-Dec-21,15-Dec-21,E4,Lab,France,NA,NA
+LNM47,Whey,Local,"43.60843917093944, 3.858368222452598",Montpelier,Whey_1,Dairy,16-Dec-21,16-Dec-21,E5,Farm,France,Goat,1
+LNM48,Pelardon_cheese,Local,"43.60843917093944, 3.858368222452598",Montpelier,Cheese_evolution_3,Dairy,16-Dec-21,16-Dec-21,E5,Farm,France,Goat,4
+LNM49,Pelardon_cheese,Local,"43.60843917093944, 3.858368222452598",Montpelier,Cheese_evolution_3,Dairy,16-Dec-21,16-Dec-21,E5,Farm,France,Goat,11
+LNM50,Pelardon_cheese,Local,"43.60843917093944, 3.858368222452598",Montpelier,Cheese_evolution_3,Dairy,16-Dec-21,16-Dec-21,E5,Farm,France,Goat,38
+LNM51,Pelardon_cheese_rind,Local,"43.73350144314175, 3.307605715393001",Lodeve,Cheese_pair_5,Dairy,16-Dec-21,20-Dec-21,E6,Farm,France,Goat,10
+LNM52,Pelardon_heese_core,Local,"43.73350144314175, 3.307605715393001",Lodeve,Cheese_pair_5,Dairy,16-Dec-21,20-Dec-21,E6,Farm,France,Goat,10
+LNM53,Whey_fridge_for_4_days,Local,"43.60843917093944, 3.858368222452598",Montpelier,Whey_1,Dairy,16-Dec-21,20-Dec-21,E6,Farm,France,Goat,4
+LNM54,NEG_CTRL,Lab,"43.55916894220101, 1.4713409711902645",Toulouse,,Control,20-Dec-21,20-Dec-21,E6,Lab,France,NA,NA
+LNM55,NEG_CTRL,Lab,"1.3058545936144261, 103.77181401156099",Singapore,,Control,15-Feb-22,15-Feb-22,E7,Lab,Singapore,NA,NA
+LNM56,Miso,Home,"1.3344308071126105, 103.88712555507311",Singapore,,Bean,15-Feb-22,15-Feb-22,E7,Home,Singapore,NA,365
+LNM57,Miso,Home,"1.3344308071126105, 103.88712555507311",Singapore,,Bean,15-Feb-22,15-Feb-22,E7,Home,Singapore,NA,365
+LNM58,Miso,Home,"1.3344308071126105, 103.88712555507311",Singapore,,Bean,15-Feb-22,15-Feb-22,E7,Home,Singapore,NA,365
+LNM59,Miso,Home,"1.3344308071126105, 103.88712555507311",Singapore,,Bean,15-Feb-22,15-Feb-22,E7,Home,Singapore,NA,365
+LNM60,Miso,Home,"1.3344308071126105, 103.88712555507311",Singapore,,Bean,15-Feb-22,15-Feb-22,E7,Home,Singapore,NA,730
+LNM61,Kombucha_pellicle,Local,"1.3344308071126105, 103.88712555507311",Singapore,Kombucha_pair_1,Drink,15-Feb-22,15-Feb-22,E7,Kombucha_shop,Singapore,NA,10
+LNM62,Kombucha_liquid,Local,"1.3344308071126105, 103.88712555507311",Singapore,Kombucha_pair_1,Drink,15-Feb-22,15-Feb-22,E7,Kombucha_shop,Singapore,NA,10
+LNM63,Kombucha_pellicle,Local,"1.3344308071126105, 103.88712555507311",Singapore,Kombucha_pair_2,Drink,15-Feb-22,15-Feb-22,E7,Kombucha_shop,Singapore,NA,10
+LNM64,Kombucha_liquid,Local,"1.3344308071126105, 103.88712555507311",Singapore,Kombucha_pair_2,Drink,15-Feb-22,15-Feb-22,E7,Kombucha_shop,Singapore,NA,10
+LNM65,Kombucha_liquid,Local,"1.3344308071126105, 103.88712555507311",Singapore,,Drink,15-Feb-22,15-Feb-22,E7,Kombucha_shop,Singapore,NA,2
+LNM66,Junbucha_liquid,Local,"1.3344308071126105, 103.88712555507311",Singapore,,Drink,15-Feb-22,15-Feb-22,E7,Kombucha_shop,Singapore,NA,2
+LNM67,Water_kefir,Home,"1.3344308071126105, 103.88712555507311",Singapore,,Drink,15-Feb-22,15-Feb-22,E7,Home,Singapore,NA,11
+LNM68,Kimchi,Home,"1.3344308071126105, 103.88712555507311",Singapore,,Vegetable,15-Feb-22,15-Feb-22,E7,Home,Singapore,NA,730
+LNM69,NEG_CTRL,Lab,"1.3058545936144261, 103.77181401156099",Singapore,,Control,19-Feb-22,21-Feb-22,E8,Lab,Singapore,NA,NA
+LNM70,Fermented_durian,Home,"1.409759309253044, 103.75822683071334",Singapore,,Fruit,19-Feb-22,21-Feb-22,E8,Home,Singapore,NA,736
+LNM71,Fermented_chilli_sauce,Home,"1.409759309253044, 103.75822683071334",Singapore,,Vegetable,19-Feb-22,21-Feb-22,E8,Home,Singapore,NA,963
+LNM72,Fish_sauce,Home,"1.409759309253044, 103.75822683071334",Singapore,,Fish,19-Feb-22,21-Feb-22,E8,Home,Singapore,NA,963
+LNM73,Soy_Miso,Home,"1.409759309253044, 103.75822683071334",Singapore,,Bean,19-Feb-22,21-Feb-22,E8,Home,Singapore,NA,933
+LNM74,Tempeh_Miso,Home,"1.409759309253044, 103.75822683071334",Singapore,,Bean,19-Feb-22,21-Feb-22,E8,Home,Singapore,NA,983
+LNM75,Ginger_beer,Home,"1.409759309253044, 103.75822683071334",Singapore,,Drink,19-Feb-22,21-Feb-22,E8,Home,Singapore,NA,
+LNM76,Kombucha_liquid,Local,"1.409759309253044, 103.75822683071334",Singapore,,Drink,19-Feb-22,21-Feb-22,E8,Kombucha_shop,Singapore,NA,
+LNM77,Kombucha_liquid,Local,"1.409759309253044, 103.75822683071334",Singapore,,Drink,19-Feb-22,21-Feb-22,E8,Kombucha_shop,Singapore,NA,
+LNM78,Kombucha_liquid,Local,"1.409759309253044, 103.75822683071334",Singapore,,Drink,19-Feb-22,21-Feb-22,E8,Kombucha_shop,Singapore,NA,
+LNM79,Kombucha_liquid,Local,"1.409759309253044, 103.75822683071334",Singapore,,Drink,19-Feb-22,21-Feb-22,E8,Kombucha_shop,Singapore,NA,
+LNM80,Kombucha_liquid,Local,"1.409759309253044, 103.75822683071334",Singapore,,Drink,19-Feb-22,21-Feb-22,E8,Kombucha_shop,Singapore,NA,
+LNM81,Kombucha_liquid,Local,"1.409759309253044, 103.75822683071334",Singapore,,Drink,19-Feb-22,21-Feb-22,E8,Kombucha_shop,Singapore,NA,
+LNM82,Ginger_bug,Home,"1.2764610060396933, 103.84589218654072",Singapore,,Drink,21-Feb-22,21-Feb-22,E8,Home,Singapore,NA,1825
+LNM83,Water_kefir_primary,Home,"1.2933044715066029, 103.78439396566911",Singapore,Kefir_evolution_1,Drink,21-Feb-22,21-Feb-22,E8,Home,Singapore,NA,2
+LNM84,Water_kefir_secondary,Home,"1.2933044715066029, 103.78439396566911",Singapore,Kefir_evolution_1,Drink,21-Feb-22,21-Feb-22,E8,Home,Singapore,NA,1
+LNM85,NEG_CTRL,Lab,"1.3058545936144261, 103.77181401156099",Singapore,,Control,24-Feb-22,24-Feb-22,E9,Lab,Singapore,NA,NA
+LNM86,Chickpea_tamari,Home,"1.3031481721154878, 103.9074863153797",Singapore,,Bean,22-Feb-22,24-Feb-22,E9,Home,Singapore,NA,652
+LNM87,Fermented_hawthorne,Home,"1.3031481721154878, 103.9074863153797",Singapore,,Fruit,22-Feb-22,24-Feb-22,E9,Home,Singapore,NA,838
+LNM88,Fermented_peaches,Home,"1.3031481721154878, 103.9074863153797",Singapore,,Fruit,22-Feb-22,24-Feb-22,E9,Home,Singapore,NA,958
+LNM89,Fermented_tofu,Home,"1.3031481721154878, 103.9074863153797",Singapore,,Bean,22-Feb-22,24-Feb-22,E9,Home,Singapore,NA,237
+LNM90,Red_wine_vinegar,Home,"1.3031481721154878, 103.9074863153797",Singapore,,Vinegar,22-Feb-22,24-Feb-22,E9,Home,Singapore,NA,258
+LNM91,Egg_yolk_shiitake_miso,Home,"1.3031481721154878, 103.9074863153797",Singapore,,Bean,22-Feb-22,24-Feb-22,E9,Home,Singapore,NA,607
+LNM92,Mirin,Home,"1.3031481721154878, 103.9074863153797",Singapore,,Vinegar,22-Feb-22,24-Feb-22,E9,Home,Singapore,NA,913
+LNM93,Orange_peel_daal_miso,Home,"1.3031481721154878, 103.9074863153797",Singapore,,Bean,22-Feb-22,24-Feb-22,E9,Home,Singapore,NA,544
+LNM94,Lions_mane_chickpea,Home,"1.3031481721154878, 103.9074863153797",Singapore,,Bean,22-Feb-22,24-Feb-22,E9,Home,Singapore,NA,268
+LNM95,Peas_miso,Home,"1.3031481721154878, 103.9074863153797",Singapore,,Bean,22-Feb-22,24-Feb-22,E9,Home,Singapore,NA,526
+LNM96,Black_olive_mugi_miso,Home,"1.3031481721154878, 103.9074863153797",Singapore,,Bean,22-Feb-22,24-Feb-22,E9,Home,Singapore,NA,1190
+LNM97,Ginger_bug,Home,"1.3031481721154878, 103.9074863153797",Singapore,,Drink,23-Feb-22,24-Feb-22,E9,Home,Singapore,NA,365
+LNM98,Yuzu_vingear,Home,"1.3031481721154878, 103.9074863153797",Singapore,,Vinegar,23-Feb-22,24-Feb-22,E9,Home,Singapore,NA,14
+LNM99,Kimchi,Home,"1.3031481721154878, 103.9074863153797",Singapore,,Vegetable,23-Feb-22,24-Feb-22,E9,Home,Singapore,NA,35
+LNM100,Nanru,Home,"1.3031481721154878, 103.9074863153797",Singapore,,Bean,23-Feb-22,24-Feb-22,E9,Home,Singapore,NA,20
+LNM101,Phak-gard-dong,Home,"13.01344459450386, 101.45745761457404",Pa_yup_nai,,Vegetable,17-Mar-22,17-Mar-22,E10,Home,Thailand,NA,5
+LNM102,Pla-ra,Home,"13.01344459450386, 101.45745761457404",Pa_yup_nai,,Fish,17-Mar-22,17-Mar-22,E10,Home,Thailand,NA,365
+LNM103,Khanom-jeen,Home,"13.01344459450386, 101.45745761457404",Pa_yup_nai,,Grain,17-Mar-22,17-Mar-22,E10,Home,Thailand,NA,2
+LNM104,Hoi-dong,Home,"13.01344459450386, 101.45745761457404",Pa_yup_nai,,Shellfish,17-Mar-22,17-Mar-22,E10,Home,Thailand,NA,
+LNM105,Ma-yom-dong,Home,"13.01344459450386, 101.45745761457404",Pa_yup_nai,,Fruit,17-Mar-22,17-Mar-22,E10,Home,Thailand,NA,5
+LNM106,NEG_CTRL,Lab,"13.00130039854562, 101.44273540555338",Pa_yup_nai,,Control,17-Mar-22,17-Mar-22,E10,Lab,Thailand,NA,NA
+LNM107,Pig_intestine,Home,"12.610146868826586, 102.11365738722915",Chanthaburi,Intestine_group_1,Intestine,19-Mar-22,21-Mar-22,E11,Home,Thailand,NA,
+LNM108,Sai_krog_isan,Home,"12.610146868826586, 102.11365738722915",Chanthaburi,Intestine_group_1,Meat,19-Mar-22,21-Mar-22,E11,Home,Thailand,NA,
+LNM109,Sai_krog_isan,Home,"12.610146868826586, 102.11365738722915",Chanthaburi,Intestine_group_1,Meat,19-Mar-22,21-Mar-22,E11,Home,Thailand,NA,
+LNM110,Sai_krog_isan,Home,"12.610146868826586, 102.11365738722915",Chanthaburi,Intestine_group_1,Meat,19-Mar-22,21-Mar-22,E11,Home,Thailand,NA,
+LNM111,Kapi,Home,"12.610146868826586, 102.11365738722915",Chanthaburi,,Crustacean,19-Mar-22,21-Mar-22,E11,Home,Thailand,NA,60
+LNM112,Kapi,Home,"12.610146868826586, 102.11365738722915",Chanthaburi,,Crustacean,19-Mar-22,21-Mar-22,E11,Home,Thailand,NA,365
+LNM113,Fish_sauce,Home,"17.181241616576017, 102.44341445926827",Nong_bua,Fish_sauce_evolution_1,Fish,19-Mar-22,21-Mar-22,E11,Home,Thailand,NA,30
+LNM114,Fish_sauce,Home,"17.181241616576017, 102.44341445926827",Nong_bua,Fish_sauce_evolution_1,Fish,19-Mar-22,21-Mar-22,E11,Home,Thailand,NA,365
+LNM115,Khaomak,Home,"17.181241616576017, 102.44341445926827",Nong_bua,,Grain,19-Mar-22,21-Mar-22,E11,Home,Thailand,NA,2
+LNM116,King-dong,Home,"13.01344459450386, 101.45745761457404",Pa_yup_nai,,Vegetable,19-Mar-22,21-Mar-22,E11,Home,Thailand,NA,2
+LNM117,Khanom-jeen,Home,"13.01344459450386, 101.45745761457404",Pa_yup_nai,,Grain,19-Mar-22,21-Mar-22,E11,Home,Thailand,NA,3
+LNM118,Ya-dong,Home,"13.015514153765459, 101.46733557640319",Pa_yup_nai,,Drink,18-Mar-22,21-Mar-22,E11,Home,Thailand,NA,30
+LNM119,Tao-Jiao,Home,"13.733704706623477, 100.50228077183769",Tha_din_daeng_market,,Bean,21-Mar-22,21-Mar-22,E11,Home,Thailand,NA,180
+LNM120,NEG_CTRL,Lab,"13.00130039854562, 101.44273540555338",Pa_yup_nai,,Control,21-Mar-22,21-Mar-22,E11,Lab,Thailand,NA,NA
+LNM121,Naw-mai-dong,Home,"15.893166936807386, 100.30732321613154",Chum_saeng,,Vegetable,21-Mar-22,22-Mar-22,E12,Home,Thailand,NA,365
+LNM122,Pa-tong-go,Home,"15.893166936807386, 100.30732321613154",Chum_saeng,,Grain,21-Mar-22,22-Mar-22,E12,Home,Thailand,NA,2
+LNM123,Tao-Jiao,Home,"15.893166936807386, 100.30732321613154",Chum_saeng,,Bean,22-Mar-22,22-Mar-22,E12,Home,Thailand,NA,14
+LNM124,Phak-gard-dong,Home,"15.893166936807386, 100.30732321613154",Chum_saeng,,Vegetable,22-Mar-22,22-Mar-22,E12,Home,Thailand,NA,3
+LNM125,Pla-som,Home,"15.893166936807386, 100.30732321613154",Chum_saeng,,Fish,22-Mar-22,22-Mar-22,E12,Home,Thailand,NA,7
+LNM126,Pla-ra,Home,"15.893166936807386, 100.30732321613154",Chum_saeng,,Fish,22-Mar-22,22-Mar-22,E12,Home,Thailand,NA,30
+LNM127,Jellyfish,Home,"15.893166936807386, 100.30732321613154",Chum_saeng,,Fish,22-Mar-22,22-Mar-22,E12,Home,Thailand,NA,10
+LNM128,Bile,Home,"15.893166936807386, 100.30732321613154",Chum_saeng,,Unclear,22-Mar-22,22-Mar-22,E12,Home,Thailand,NA,3
+LNM129,Cow_intestine,Home,"15.893166936807386, 100.30732321613154",Chum_saeng,,Intestine,22-Mar-22,22-Mar-22,E12,Home,Thailand,NA,0
+LNM130,NEG_CTRL,Lab,"13.00130039854562, 101.44273540555338",Pa_yup_nai,,Control,22-Mar-22,22-Mar-22,E12,Lab,Thailand,NA,NA
+LNM131,Pu Dong,Home,"15.893166936807386, 100.30732321613154",Chum_saeng,,Crustacean,23-Mar-22,25-Mar-22,E13,Home,Thailand,NA,1
+LNM132,Daikon-radish,Home,"15.893166936807386, 100.30732321613154",Chum_saeng,,Vegetable,23-Mar-22,25-Mar-22,E13,Home,Thailand,NA,3
+LNM133,Fish_sauce,Trachang,"12.662113723909712, 101.25761676292964",Rayong,Fish_sauce_group_1,Fish,24-Mar-22,25-Mar-22,E13,Factory,Thailand,NA,365
+LNM134,Fish_sauce,Trachang,"12.662113723909712, 101.25761676292964",Rayong,Fish_sauce_group_1,Fish,24-Mar-22,25-Mar-22,E13,Factory,Thailand,NA,365
+LNM135,Fish_sauce,Trachang,"12.662113723909712, 101.25761676292964",Rayong,Fish_sauce_group_1,Fish,24-Mar-22,25-Mar-22,E13,Factory,Thailand,NA,365
+LNM136,Kombucha,Home,"13.00130039854562, 101.44273540555338",Pa_yup_nai,Bring_the_booch,Drink,25-Mar-22,25-Mar-22,E13,Home,Thailand,NA,7
+LNM137,Fermented_jellyfish,Home,"15.893166936807386, 100.30732321613154",Chum_saeng,,Fish,25-Mar-22,25-Mar-22,E13,Home,Thailand,NA,8
+LNM138,Kung-om_shrimp,Home,"15.893166936807386, 100.30732321613154",Chum_saeng,,Crustacean,25-Mar-22,25-Mar-22,E13,Home,Thailand,NA,7
+LNM139,Plajom_minnow,Home,"15.893166936807386, 100.30732321613154",Chum_saeng,,Fish,25-Mar-22,25-Mar-22,E13,Home,Thailand,NA,7
+LNM140,Pla-ra_gouramis,Home,"15.893166936807386, 100.30732321613154",Chum_saeng,,Fish,25-Mar-22,25-Mar-22,E13,Home,Thailand,NA,180
+LNM141,Pla-ra_carp,Home,"15.893166936807386, 100.30732321613154",Chum_saeng,,Fish,25-Mar-22,25-Mar-22,E13,Home,Thailand,NA,180
+LNM142,Pla-som,Home,"15.893166936807386, 100.30732321613154",Chum_saeng,,Fish,25-Mar-22,25-Mar-22,E13,Home,Thailand,NA,7
+LNM143,Naw-mai-dong,Home,"15.893166936807386, 100.30732321613154",Chum_saeng,,Vegetable,25-Mar-22,25-Mar-22,E13,Home,Thailand,NA,180
+LNM144,Nam,Home,"15.893166936807386, 100.30732321613154",Chum_saeng,,Meat,25-Mar-22,25-Mar-22,E13,Home,Thailand,NA,3
+LNM145,Phak-sian-dong,Home,"15.893166936807386, 100.30732321613154",Chum_saeng,,Vegetable,25-Mar-22,25-Mar-22,E13,Home,Thailand,NA,7
+LNM146,NEG_CTRL,Lab,"13.00130039854562, 101.44273540555338",Pa_yup_nai,,Control,25-Mar-22,25-Mar-22,E13,Lab,Thailand,NA,NA
+LNM147,Khanom-jeen-contam,Home,"13.015514153765459, 101.46733557640319",Pa_yup_nai,,Grain,25-Mar-22,25-Mar-22,E13,Home,Thailand,NA,9
+LNM148,Khanom-jeen-contam,Home,"13.015514153765459, 101.46733557640319",Pa_yup_nai,,Grain,25-Mar-22,25-Mar-22,E13,Home,Thailand,NA,9
+LNM149,Look_peang_Sato,Home,"15.159129054490473, 103.88043689288001","Non narai, Surin",,Drink,29-Mar-22,30-Mar-22,E14,Home,Thailand,NA,30
+LNM150,Look_peang_khao_mak,Home,"15.159129054490473, 103.88043689288001","Non narai, Surin",,Grain,29-Mar-22,30-Mar-22,E14,Home,Thailand,NA,30
+LNM151,Khao_Mak,Home,"14.974664219722111, 102.05345704877134","Talad Tadsabarn Kham Thale So, Nakhon Ratchasima",Khaomak_evolution,Grain,29-Mar-22,30-Mar-22,E14,Home,Thailand,NA,2
+LNM152,Naw_mai_dong,Home,"14.974664219722111, 102.05345704877134","Talad Tadsabarn Kham Thale So, Nakhon Ratchasima",,Vegetable,29-Mar-22,30-Mar-22,E14,Home,Thailand,NA,Unknown
+LNM153,Pu_dong,Home,"14.974664219722111, 102.05345704877134","Talad Tadsabarn Kham Thale So, Nakhon Ratchasima",,Crustacean,29-Mar-22,30-Mar-22,E14,Home,Thailand,NA,Unknown
+LNM154,Sai_krok_isan,Home,"14.974664219722111, 102.05345704877134","Talad Tadsabarn Kham Thale So, Nakhon Ratchasima",Intestine_group_2,Meat,29-Mar-22,30-Mar-22,E14,Home,Thailand,NA,1
+LNM155,Sai_krok_isan_(the_intestine_from_154),Home,"14.974664219722111, 102.05345704877134","Talad Tadsabarn Kham Thale So, Nakhon Ratchasima",Intestine_group_2,Meat,29-Mar-22,30-Mar-22,E14,Home,Thailand,NA,1
+LNM156,Nam_moo_haw_bai_tong,Home,"15.03575289431413, 102.05620242399863","Ban Pudsa, Panao, Muang, Nakhon Ratchasima (the 1st house)",Sausage_evolution,Meat,29-Mar-22,30-Mar-22,E14,Home,Thailand,NA,1
+LNM157,Nam_moo_haw_bai_tong,Home,"15.03575289431413, 102.05620242399863","Ban Pudsa, Panao, Muang, Nakhon Ratchasima (the 1st house)",Sausage_evolution,Meat,29-Mar-22,30-Mar-22,E14,Home,Thailand,NA,2
+LNM158,Nam_moo_haw_bai_tong,Home,"15.03575289431413, 102.05620242399863","Ban Pudsa, Panao, Muang, Nakhon Ratchasima (the 1st house)",Sausage_evolution,Meat,29-Mar-22,30-Mar-22,E14,Home,Thailand,NA,3
+LNM159,Nam_moo_haw_bai_tong,Home,"15.03575289431413, 102.05620242399863","Ban Pudsa, Panao, Muang, Nakhon Ratchasima (the 2nd house)",,Meat,29-Mar-22,30-Mar-22,E14,Home,Thailand,NA,1
+LNM160,Pla_som,Home,"14.971378899712168, 102.08126325325375","Talad Ya mo, Muang, Nakhon Ratchasima",,Fish,29-Mar-22,1-Apr-22,E15,Home,Thailand,NA,4
+LNM161,Pla_ra,Home,"14.971378899712168, 102.08126325325375","Talad Ya mo, Muang, Nakhon Ratchasima",,Fish,29-Mar-22,1-Apr-22,E15,Home,Thailand,NA,4
+LNM162,Pla_som_fug,Home,"14.971378899712168, 102.08126325325375","Talad Ya mo, Muang, Nakhon Ratchasima",,Fish,29-Mar-22,1-Apr-22,E15,Home,Thailand,NA,4
+LNM163,Kai_pla_som,Home,"14.971378899712168, 102.08126325325375","Talad Ya mo, Muang, Nakhon Ratchasima",Kai_pla_som_evolution,Fish,29-Mar-22,30-Mar-22,E14,Home,Thailand,NA,1
+LNM164,Pla_som_minnow,Home,"14.971378899712168, 102.08126325325375","Talad Ya mo, Muang, Nakhon Ratchasima",Pla_som_sa_wai_evolution,Fish,29-Mar-22,30-Mar-22,E14,Home,Thailand,NA,1
+LNM165,Pla_som_ta_pien,Home,"14.971378899712168, 102.08126325325375","Talad Ya mo, Muang, Nakhon Ratchasima",Pla_som_ta_pien_evolution,Fish,29-Mar-22,30-Mar-22,E14,Home,Thailand,NA,1
+LNM166,Pla_ra_nin,Home,"14.971378899712168, 102.08126325325375","Talad Ya mo, Muang, Nakhon Ratchasima",Pla_ra_nin_evolution,Fish,29-Mar-22,30-Mar-22,E14,Home,Thailand,NA,1
+LNM167,Mum_nuea,Home,"14.883338236470458, 101.82612073896074","mum ja yo (หม่ำจ่าโญ) Sung noen, Nakhon Ratchasima",,Meat,29-Mar-22,30-Mar-22,E14,Home,Thailand,NA,1
+LNM168,Sai_krok_moo_woon_sen,Home,"14.883338236470458, 101.82612073896074","mum ja yo (หม่ำจ่าโญ) Sung noen, Nakhon Ratchasima",Sai_krok_moo_woon_sen_evolution,Meat,29-Mar-22,30-Mar-22,E14,Home,Thailand,NA,2
+LNM169,Sai_krok_nuea,Home,"14.883338236470458, 101.82612073896074","mum ja yo (หม่ำจ่าโญ) Sung noen, Nakhon Ratchasima",Sai_krok_nuea_evolution,Meat,29-Mar-22,30-Mar-22,E14,Home,Thailand,NA,1
+LNM170,mum_moo,Home,"14.883338236470458, 101.82612073896074","mum ja yo (หม่ำจ่าโญ) Sung noen, Nakhon Ratchasima",mum_moo_evolution,Meat,29-Mar-22,30-Mar-22,E14,Home,Thailand,NA,1
+LNM171,sai_krok_moo,Home,"14.883338236470458, 101.82612073896074","mum ja yo (หม่ำจ่าโญ) Sung noen, Nakhon Ratchasima",,Meat,29-Mar-22,30-Mar-22,E14,Home,Thailand,NA,2
+LNM172,Hom-dong,Home,"14.078204797476989, 100.6013157796984",Klong_Nueng_Klong_Luang_Pathumthani,Hom_dong_evolution,Vegetable,29-Mar-22,30-Mar-22,E14,Lab,Thailand,NA,0
+LNM173,NEG_CTRL,Lab,"14.078204797476989, 100.6013157796984",Klong_Nueng_Klong_Luang_Pathumthani,,Control,29-Mar-22,30-Mar-22,E14,Lab,Thailand,NA,NA
+LNM174,Kai_pla_som,Home,"14.97266994365913, 102.07376399823929","Talad Ya mo, Muang, Nakhon Ratchasima",Kai_pla_som_evolution,Fish,29-Mar-22,1-Apr-22,E15,Home,Thailand,NA,3
+LNM175,Pla_som_sa_wai,Home,"14.97266994365913, 102.07376399823929","Talad Ya mo, Muang, Nakhon Ratchasima",Pla_som_sa_wai_evolution,Fish,29-Mar-22,1-Apr-22,E15,Home,Thailand,NA,3
+LNM176,Pla_som_ta_pien,Home,"14.97266994365913, 102.07376399823929","Talad Ya mo, Muang, Nakhon Ratchasima",Pla_som_ta_pien_evolution,Fish,29-Mar-22,1-Apr-22,E15,Home,Thailand,NA,3
+LNM177,Pla_ra_nin,Home,"14.97266994365913, 102.07376399823929","Talad Ya mo, Muang, Nakhon Ratchasima",Pla_ra_nin_evolution,Fish,29-Mar-22,1-Apr-22,E15,Home,Thailand,NA,3
+LNM178,Sai_krok_moo_woon_sen,Home,"14.883338236470458, 101.82612073896074","mum ja yo (หม่ำจ่าโญ) Sung noen, Nakhon Ratchasima",Sai_krok_moo_woon_sen_evolution,Meat,29-Mar-22,1-Apr-22,E15,Home,Thailand,NA,3
+LNM179,Sai_krok_nuea,Home,"14.883338236470458, 101.82612073896074","mum ja yo (หม่ำจ่าโญ) Sung noen, Nakhon Ratchasima",Sai_krok_nuea_evolution,Meat,29-Mar-22,1-Apr-22,E15,Home,Thailand,NA,3
+LNM180,mum_moo,Home,"14.883338236470458, 101.82612073896074","mum ja yo (หม่ำจ่าโญ) Sung noen, Nakhon Ratchasima",mum_moo_evolution,Meat,29-Mar-22,1-Apr-22,E15,Home,Thailand,NA,3
+LNM181,Hom-dong,Home,"14.078204797476989, 100.6013157796984",Klong_Nueng_Klong_Luang_Pathumthani,Hom_dong_evolution,Vegetable,1-Apr-22,1-Apr-22,E15,Lab,Thailand,NA,2
+LNM182,Khao_Mak,Home,"14.957194953782254, 102.04411153818005","Talad Tadsabarn Kham Thale So, Nakhon Ratchasima",Khaomak_evolution,Grain,29-Mar-22,1-Apr-22,E15,Home,Thailand,NA,4
+LNM183,Pla_tu_num,Home,"9.652998233884603, 99.15298756942502","Kanthuli, Tachana,Suratthani",,Fish,30-Mar-22,1-Apr-22,E15,Home,Thailand,NA,18
+LNM184,Sa_toh_dong,Home,"9.652998233884603, 99.15298756942502","Kanthuli, Tachana,Suratthani",,Bean,30-Mar-22,1-Apr-22,E15,Home,Thailand,NA,365
+LNM185,Tai_pla,Home,"9.652998233884603, 99.15298756942502","Kanthuli, Tachana,Suratthani",,Fish,30-Mar-22,1-Apr-22,E15,Home,Thailand,NA,180
+LNM186,Ka_pi,Home,"9.13667705474458, 99.3268549159629","Tachana,Suratthani",,Crustacean,30-Mar-22,1-Apr-22,E15,Home,Thailand,NA,180
+LNM187,NEG_CTRL,Lab,"14.078204797476989, 100.6013157796984",Klong_Nueng_Klong_Luang_Pathumthani,,Control,1-Apr-22,1-Apr-22,E15,Lab,Thailand,NA,NA
+LNM188,Miang,Home,"14.061238601641879, 100.60769689159889",,,Drink,2-Apr-22,4-Apr-22,E16,Home,Thailand,NA,
+LNM189,Miang_Kombucha,Home,"14.061238601641879, 100.60769689159889",Klong_Nueng_Klong_Luang_Pathumthani,,Drink,4-Apr-22,4-Apr-22,E16,Home,Thailand,NA,3
+LNM190,Kombucha,Home,"14.061238601641879, 100.60769689159889",Klong_Nueng_Klong_Luang_Pathumthani,Bring_the_booch,Drink,4-Apr-22,4-Apr-22,E16,Home,Thailand,NA,7
+LNM191,Milk,Local,"13.737105664657154, 100.12405190098373",Nakhon_Pathom_Thailand,,Dairy,4-Apr-22,4-Apr-22,E16,Farm,Thailand,Goat,0
+LNM192,Fresh_cheese,Local,"13.737105664657154, 100.12405190098373",Nakhon_Pathom_Thailand,,Dairy,4-Apr-22,4-Apr-22,E16,Farm,Thailand,Goat,4
+LNM193,Nourkai_cheese,Local,"13.737105664657154, 100.12405190098373",Nakhon_Pathom_Thailand,,Dairy,4-Apr-22,4-Apr-22,E16,Farm,Thailand,Goat,14
+LNM194,Tanchan_cheese,Local,"13.737105664657154, 100.12405190098373",Nakhon_Pathom_Thailand,,Dairy,4-Apr-22,4-Apr-22,E16,Farm,Thailand,Goat,14
+LNM195,St_don_cheese,Local,"13.737105664657154, 100.12405190098373",Nakhon_Pathom_Thailand,,Dairy,4-Apr-22,4-Apr-22,E16,Farm,Thailand,Goat,28
+LNM196,Brie_cheese,Local,"13.737105664657154, 100.12405190098373",Nakhon_Pathom_Thailand,,Dairy,4-Apr-22,4-Apr-22,E16,Farm,Thailand,Goat,21
+LNM197,Talaggio_cheese,Local,"13.737105664657154, 100.12405190098373",Nakhon_Pathom_Thailand,,Dairy,4-Apr-22,4-Apr-22,E16,Farm,Thailand,Goat,60
+LNM198,Caprino_cheese,Local,"13.737105664657154, 100.12405190098373",Nakhon_Pathom_Thailand,,Dairy,4-Apr-22,4-Apr-22,E16,Farm,Thailand,Goat,
+LNM199,Hom-dong,Home,"14.078204797476989, 100.6013157796984",Klong_Nueng_Klong_Luang_Pathumthani,Hom_dong_evolution,Vegetable,4-Apr-22,4-Apr-22,E16,Lab,Thailand,NA,5
+LNM200,NEG_CTRL,Lab,"14.078204797476989, 100.6013157796984",Klong_Nueng_Klong_Luang_Pathumthani,,Control,4-Apr-22,4-Apr-22,E16,Lab,Thailand,NA,NA
+LNM201,NEG_CTRL,Lab,"52.673578341773535, -8.570967349431434",Castletroy,,Control,29-Apr-22,29-Apr-22,E17,Lab,Ireland,NA,NA
+LNM202,Goat_blue_cheese,Local,"52.31175810968818, -8.498280817302502",Kilmallock,,Dairy,29-Apr-22,29-Apr-22,E17,Farm,Ireland,Goat,
+LNM203,Mature_cheddar_cheese,Local,"52.88936501859027, -8.246121205379323",Tipperary,,Dairy,29-Apr-22,29-Apr-22,E17,Farm,Ireland,Cow,
+LNM204,Cais_dubh_cheese,Local,"52.12771548386482, -8.262857396120221",Fermoy,,Dairy,29-Apr-22,29-Apr-22,E17,Farm,Ireland,Cow,
+LNM205,Burren_smoked_gold_gouda,Local,"53.087959963829995, -9.149191084960233",Lisdoonvarna,,Dairy,29-Apr-22,29-Apr-22,E17,Farm,Ireland,Cow,
+LNM206,Raw_milk,Local,"53.76407132452778, -8.941995043970309",Claremorris,Yogurt_evolution_1,Dairy,29-Apr-22,29-Apr-22,E17,Farm,Ireland,Sheep,
+LNM207,Pasteurized_milk,Local,"52.673578341773535, -8.570967349431434",Claremorris,Yogurt_evolution_2,Dairy,29-Apr-22,29-Apr-22,E17,Lab,Ireland,Sheep,
+LNM208,Yogurt_drink,Local,"52.673578341773535, -8.570967349431434",Claremorris,Yogurt_evolution_3,Dairy,29-Apr-22,29-Apr-22,E17,Lab,Ireland,Sheep,
+LNM209,Yogurt_drink,Local,"52.673578341773535, -8.570967349431434",Claremorris,Yogurt_evolution_4,Dairy,29-Apr-22,29-Apr-22,E17,Lab,Ireland,Sheep,
+LNM210,Yogurt_drink,Local,"52.673578341773535, -8.570967349431434",Claremorris,Yogurt_evolution_5,Dairy,29-Apr-22,29-Apr-22,E17,Lab,Ireland,Sheep,
+LNM211,Yogurt_drink,Local,"52.673578341773535, -8.570967349431434",Claremorris,Yogurt_evolution_6,Dairy,29-Apr-22,29-Apr-22,E17,Lab,Ireland,Sheep,
+LNM212,Yogurt_drink,Local,"52.673578341773535, -8.570967349431434",Claremorris,Yogurt_evolution_7,Dairy,29-Apr-22,29-Apr-22,E17,Lab,Ireland,Sheep,
+LNM213,Yogurt_drink,Local,"52.673578341773535, -8.570967349431434",Claremorris,Yogurt_evolution_8,Dairy,29-Apr-22,29-Apr-22,E17,Lab,Ireland,Sheep,
+LNM214,NEG_CTRL,Lab,"52.673578341773535, -8.570967349431434",Castletroy,,Control,3-May-22,3-May-22,E18,Lab,Ireland,NA,NA
+LNM215,Garlic_and_herb_cheddar_cheese,Old Irish Creamery,"52.35297208231789, -8.601255860891937",Effin,,Dairy,30-Apr-22,3-May-22,E18,Farm,Ireland,Cow,
+LNM216,Red_cheddar_cheese,Wexford_creamery,"53.292555365347695, -6.424871158841682",Wexford,,Dairy,30-Apr-22,3-May-22,E18,Farm,Ireland,Cow,
+LNM217,Cheddar_cheese,Cahills,"52.438871453488154, -9.039711307494054",Newcastlewest,,Dairy,30-Apr-22,3-May-22,E18,Farm,Ireland,Cow,
+LNM218,Comte_cheese,Unknown,"47.32705122157342, 6.647787974354776",Unknown,,Dairy,30-Apr-22,3-May-22,E18,Farm,Ireland,Cow,
+LNM219,Danish_Blue_cheese,Unknown,"55.69261914368601, 12.553162359862478",Unknown,,Dairy,30-Apr-22,3-May-22,E18,Farm,Ireland,Cow,
+LNM220,Milk_Kefir,Crawford,"52.95693974977276, -8.017767318765149",Cloughjordan,,Dairy,30-Apr-22,3-May-22,E18,Farm,Ireland,Cow,
+LNM221,Cultured_butter,Crawford,"52.95693974977276, -8.017767318765149",Cloughjordan,,Dairy,30-Apr-22,3-May-22,E18,Farm,Ireland,Cow,
+LNM222,Fennel_sugar_help_kraut,Thalli,"52.85598009624297, -9.40393660571548",Miltown Malbay,,Vegetable,30-Apr-22,3-May-22,E18,Small_fermenter,Ireland,NA,
+LNM223,Fennel_nettle_kraut,Thalli,"52.85598009624297, -9.40393660571548",Miltown Malbay,,Vegetable,30-Apr-22,3-May-22,E18,Small_fermenter,Ireland,NA,
+LNM224,Cabbage_dillisk_kraut,Thalli,"52.85598009624297, -9.40393660571548",Miltown Malbay,,Vegetable,30-Apr-22,3-May-22,E18,Small_fermenter,Ireland,NA,
+LNM225,Fermented_Garlic,Thalli,"52.85598009624297, -9.40393660571548",Miltown Malbay,,Vegetable,30-Apr-22,3-May-22,E18,Small_fermenter,Ireland,NA,
+LNM226,White_kimchi,Thalli,"52.85598009624297, -9.40393660571548",Miltown Malbay,,Vegetable,30-Apr-22,3-May-22,E18,Small_fermenter,Ireland,NA,
+LNM227,Raw_sheep_cheese,Derg,"52.8165060022542, -8.442230233075701",Derg,,Dairy,30-Apr-22,3-May-22,E18,Farm,Ireland,Cow,
+LNM228,Raw_sheep_cheese,Unknown,"52.66068617748925, -8.629268084828112",Down,,Dairy,30-Apr-22,3-May-22,E18,Farm,Ireland,Cow,
+LNM229,Pork_sausage_chorizo,Olivier_BEAUJOUAN,"52.226153385165674, -10.102554187809794",Kilcummin,,Meat,30-Apr-22,3-May-22,E18,Charcutier,Ireland,NA,
+LNM230,Pork_Sausage_with_seeweed,Olivier_BEAUJOUAN,"52.226153385165674, -10.102554187809794",Kilcummin,,Meat,30-Apr-22,3-May-22,E18,Charcutier,Ireland,NA,
+LNM231,Pork_Sausage_with_cumin,Olivier_BEAUJOUAN,"52.226153385165674, -10.102554187809794",Kilcummin,,Meat,30-Apr-22,3-May-22,E18,Charcutier,Ireland,NA,
+LNM232,Raw_goat_milk,St_tola,"52.90303547287531, -9.178353712044508",Ennistymon,Cheese_evolution_4,Dairy,3-May-22,4-May-22,E19,Farm,Ireland,Goat,
+LNM233,Raw_goat_log_day_15,St_tola,"52.90303547287531, -9.178353712044508",Ennistymon,Cheese_evolution_4,Dairy,3-May-22,4-May-22,E19,Farm,Ireland,Goat,15
+LNM234,Raw_goat_log_w_geo_day_15,St_tola,"52.90303547287531, -9.178353712044508",Ennistymon,Cheese_evolution_4,Dairy,3-May-22,4-May-22,E19,Farm,Ireland,Goat,15
+LNM235,Raw_goat_ash_log_day_27,St_tola,"52.90303547287531, -9.178353712044508",Ennistymon,Cheese_evolution_4,Dairy,3-May-22,4-May-22,E19,Farm,Ireland,Goat,27
+LNM236,Raw_goat_log_day_13,St_tola,"52.90303547287531, -9.178353712044508",Ennistymon,Cheese_evolution_4,Dairy,3-May-22,4-May-22,E19,Farm,Ireland,Goat,13
+LNM237,Raw_goat_log_day_4,St_tola,"52.90303547287531, -9.178353712044508",Ennistymon,Cheese_evolution_4,Dairy,3-May-22,4-May-22,E19,Farm,Ireland,Goat,4
+LNM238,Raw_goat_log_day_8,St_tola,"52.90303547287531, -9.178353712044508",Ennistymon,Cheese_evolution_4,Dairy,3-May-22,4-May-22,E19,Farm,Ireland,Goat,8
+LNM239,Raw_goat_log_day_1,St_tola,"52.90303547287531, -9.178353712044508",Ennistymon,Cheese_evolution_4,Dairy,3-May-22,4-May-22,E19,Farm,Ireland,Goat,1
+LNM240,Pastuerized_goat_cheese_day_1,St_tola,"52.90303547287531, -9.178353712044508",Ennistymon,Cheese_evolution_4,Dairy,3-May-22,4-May-22,E19,Farm,Ireland,Goat,1
+LNM241,Raw_goat_log_day_1,St_tola,"52.90303547287531, -9.178353712044508",Ennistymon,Cheese_evolution_4,Dairy,3-May-22,4-May-22,E19,Farm,Ireland,Goat,1
+LNM242,Raw_goat_log_w_geo_day_18,St_tola,"52.90303547287531, -9.178353712044508",Ennistymon,Cheese_evolution_4,Dairy,3-May-22,4-May-22,E19,Farm,Ireland,Goat,18
+LNM243,Raw_goat_ash_log_day_17,St_tola,"52.90303547287531, -9.178353712044508",Ennistymon,Cheese_evolution_4,Dairy,3-May-22,4-May-22,E19,Farm,Ireland,Goat,17
+LNM244,Kombucha,Home,"52.66864436484801, -8.553804771489908",Castletroy,Bring_the_booch,Drink,4-May-22,4-May-22,E19,Home,Ireland,NA,5
+LNM245,Cultured_Cashew,Hungry_Soul,"52.753271786500804, -8.499912156994817",O'Briensbridge,,Unclear,30-Apr-22,4-May-22,E19,Small_fermenter,Ireland,NA,Unknown
+LNM246,Kombucha,Home,"52.13583619440867, -8.283111706902002",Fermoy,,Drink,3-May-22,4-May-22,E19,Home,Ireland,NA,
+LNM247,Water_Kefir,Home,"52.13583619440867, -8.283111706902002",Fermoy,,Drink,3-May-22,4-May-22,E19,Home,Ireland,NA,
+LNM248,Water_Kefir,Home,"52.13583619440867, -8.283111706902002",Fermoy,,Drink,3-May-22,4-May-22,E19,Home,Ireland,NA,
+LNM249,Fermented_chilli,Home,"52.13583619440867, -8.283111706902002",Fermoy,,Vegetable,3-May-22,4-May-22,E19,Home,Ireland,NA,
+LNM250,Fermented_okra,Home,"52.13583619440867, -8.283111706902002",Fermoy,,Vegetable,3-May-22,4-May-22,E19,Home,Ireland,NA,
+LNM251,NEG_CTRL,Lab,"52.673578341773535, -8.570967349431434",Castletroy,,Control,4-May-22,4-May-22,E19,Lab,Ireland,NA,NA
+LNM252,NEG_CTRL,Lab,"51.49961449780279, -0.17585086975623193",London,,Control,10-May-22,12-May-22,E20,Lab,UK,NA,NA
+LNM253,Brefu_bach_rind,Brefu Bach,"53.18961120901574, -4.104846297424064",LL57 4BB,,Dairy,6-May-22,12-May-22,E20,Dairy,UK,Sheep,11
+LNM254,St_tola_nice_rind_day_21,St Tola,"52.90303547287531, -9.178353712044508",Ennistimon,Cheese_evolution_4,Dairy,6-May-22,12-May-22,E20,Farm,UK,Goat,21
+LNM255,St_tola_red_contaminant_rind_day_21,St Tola,"52.90303547287531, -9.178353712044508",Ennistimon,Cheese_evolution_4,Dairy,6-May-22,12-May-22,E20,Farm,UK,Goat,21
+LNM256,Ash_karst_rind,St Tola,"52.90303547287531, -9.178353712044508",Ennistimon,Cheese_pair_6,Dairy,6-May-22,12-May-22,E20,Farm,UK,Goat,20
+LNM257,Ash_karst_core,St Tola,"52.90303547287531, -9.178353712044508",Ennistimon,Cheese_pair_6,Dairy,6-May-22,12-May-22,E20,Farm,UK,Goat,20
+LNM258,Ingot_old_rind,Holker Farm,"54.18485204617472, -3.000637216718917",LA11 7PS,Cheese_evolution_5,Dairy,6-May-22,12-May-22,E20,Farm,UK,Goat,32
+LNM259,Ingot_young_rind,Holker Farm,"54.18485204617472, -3.000637216718917",LA11 7PS,Cheese_evolution_5,Dairy,6-May-22,12-May-22,E20,Farm,UK,Goat,15
+LNM260,Ingot_medium_rind,Holker Farm,"54.18485204617472, -3.000637216718917",LA11 7PS,Cheese_evolution_5,Dairy,6-May-22,12-May-22,E20,Farm,UK,Goat,18
+LNM261,Ingot_old_core,Holker Farm,"54.18485204617472, -3.000637216718917",LA11 7PS,Cheese_evolution_5,Dairy,6-May-22,12-May-22,E20,Farm,UK,Goat,32
+LNM262,Ingot_young_core,Holker Farm,"54.18485204617472, -3.000637216718917",LA11 7PS,Cheese_evolution_5,Dairy,6-May-22,12-May-22,E20,Farm,UK,Goat,15
+LNM263,Ingot_medium_core,Holker Farm,"54.18485204617472, -3.000637216718917",LA11 7PS,Cheese_evolution_5,Dairy,6-May-22,12-May-22,E20,Farm,UK,Goat,18
+LNM264,St_James_core,Holker Farm,"54.18485204617472, -3.000637216718917",LA11 7PS,Cheese_pair_7,Dairy,6-May-22,12-May-22,E20,Farm,UK,Sheep,23
+LNM265,St_James_rind,Holker Farm,"54.18485204617472, -3.000637216718917",LA11 7PS,Cheese_pair_7,Dairy,6-May-22,12-May-22,E20,Farm,UK,Sheep,23
+LNM266,St_James_blush_rind,Holker Farm,"54.18485204617472, -3.000637216718917",LA11 7PS,Cheese_pair_7,Dairy,6-May-22,12-May-22,E20,Farm,UK,Sheep,23
+LNM267,St_James_blue_rind,Holker Farm,"54.18485204617472, -3.000637216718917",LA11 7PS,Cheese_pair_7,Dairy,6-May-22,12-May-22,E20,Farm,UK,Sheep,23
+LNM268,St_James_manky_rind,Holker Farm,"54.18485204617472, -3.000637216718917",LA11 7PS,Cheese_pair_7,Dairy,6-May-22,12-May-22,E20,Farm,UK,Sheep,23
+LNM269,St_James_mucor_rind,Holker Farm,"54.18485204617472, -3.000637216718917",LA11 7PS,Cheese_pair_7,Dairy,6-May-22,12-May-22,E20,Farm,UK,Sheep,23
+LNM270,St_James_pink_rind,Holker Farm,"54.18485204617472, -3.000637216718917",LA11 7PS,Cheese_pair_7,Dairy,6-May-22,12-May-22,E20,Farm,UK,Sheep,23
+LNM271,St_Cera_medium_day_26_core,White Wood Dairy (Fen Farm),"52.443625917054675, 1.430970224582356",NR35 1PD,Cheese_evolution_6,Dairy,6-May-22,12-May-22,E20,Farm,UK,Cow,26
+LNM272,St_Cera_medium_day_26_rind,White Wood Dairy (Fen Farm),"52.443625917054675, 1.430970224582356",NR35 1PD,Cheese_evolution_6,Dairy,6-May-22,12-May-22,E20,Farm,UK,Cow,26
+LNM273,St_Cera_young_day_12_core,White Wood Dairy (Fen Farm),"52.443625917054675, 1.430970224582356",NR35 1PD,Cheese_evolution_6,Dairy,6-May-22,12-May-22,E20,Farm,UK,Cow,12
+LNM274,St_Cera_young_day_12_rind,White Wood Dairy (Fen Farm),"52.443625917054675, 1.430970224582356",NR35 1PD,Cheese_evolution_6,Dairy,6-May-22,12-May-22,E20,Farm,UK,Cow,12
+LNM275,St_Cera_old_day_32_core,White Wood Dairy (Fen Farm),"52.443625917054675, 1.430970224582356",NR35 1PD,Cheese_evolution_6,Dairy,6-May-22,12-May-22,E20,Farm,UK,Cow,32
+LNM276,St_Cera_old_day_32_rind,White Wood Dairy (Fen Farm),"52.443625917054675, 1.430970224582356",NR35 1PD,Cheese_evolution_6,Dairy,6-May-22,12-May-22,E21,Farm,UK,Cow,32
+LNM277,Ingot_extra_old_rind,Holker Farm,"54.18485204617472, -3.000637216718917",LA11 7PS,Cheese_evolution_5,Dairy,6-May-22,12-May-22,E21,Farm,UK,Goat,184
+LNM278,Ingot_extra_old_core,Holker Farm,"54.18485204617472, -3.000637216718917",LA11 7PS,Cheese_evolution_5,Dairy,6-May-22,12-May-22,E21,Farm,UK,Goat,184
+LNM279,Stichelson_wet_pink_rind,Stichelton Dairy,"53.242353767513805, -1.1755262947414147",NG20 9NP,Cheese_pair_8,Dairy,6-May-22,12-May-22,E21,Farm,UK,Cow,115
+LNM280,Stichelson_good_rind,Stichelton Dairy,"53.242353767513805, -1.1755262947414147",NG20 9NP,Cheese_pair_8,Dairy,6-May-22,12-May-22,E21,Farm,UK,Cow,115
+LNM281,Stichelson_white_fluff_rind,Stichelton Dairy,"53.242353767513805, -1.1755262947414147",NG20 9NP,Cheese_pair_8,Dairy,6-May-22,12-May-22,E21,Farm,UK,Cow,115
+LNM282,Stichelson_core,Stichelton Dairy,"53.242353767513805, -1.1755262947414147",NG20 9NP,Cheese_pair_8,Dairy,6-May-22,12-May-22,E21,Farm,UK,Cow,115
+LNM283,Red_cheddar,Leicestershire Handmade Cheese,"52.592605368973004, -1.4648736117471604",CV13 6JX,,Dairy,6-May-22,12-May-22,E21,Farm,UK,Cow,
+LNM284,Cooking_spark_core,Leicestershire Handmade Cheese,"52.592605368973004, -1.4648736117471604",CV13 6JX,,Dairy,6-May-22,12-May-22,E21,Farm,UK,Cow,46
+LNM285,Blue_Stilton_rind,Unidentified,"52.95153411201761, -1.15932512729799",NG12 3FN,Cheese_pair_9,Dairy,6-May-22,12-May-22,E21,Dairy,UK,Cow,
+LNM286,Blue_Stilton_core,Unidentified,"52.95153411201761, -1.15932512729799",NG12 3FN,Cheese_pair_9,Dairy,6-May-22,12-May-22,E21,Dairy,UK,Cow,
+LNM287,Hafod_normal_rind,Hafod,"52.183203560064484, -4.0488771541935815",SA48 8PS,Cheese_pair_10,Dairy,6-May-22,12-May-22,E21,Farm,UK,Cow,360
+LNM288,Hafod_rind_mountain,Hafod,"52.183203560064484, -4.0488771541935815",SA48 8PS,Cheese_pair_10,Dairy,6-May-22,12-May-22,E21,Farm,UK,Cow,360
+LNM289,Hafod_core,Hafod,"52.183203560064484, -4.0488771541935815",SA48 8PS,Cheese_pair_10,Dairy,6-May-22,12-May-22,E21,Farm,UK,Cow,360
+LNM290,Apatha_core,Holker Farm,"54.18485204617472, -3.000637216718917",LA11 7PS,Cheese_pair_11,Dairy,6-May-22,12-May-22,E21,Farm,UK,Goat,43
+LNM291,Apatha_rind,Holker Farm,"54.18485204617472, -3.000637216718917",LA11 7PS,Cheese_pair_11,Dairy,6-May-22,12-May-22,E21,Farm,UK,Goat,43
+LNM292,Hill_farm_milk_kefir,Hill Farm Real Food,"53.14424878045988, -2.621259142973646",CW6 9LL,,Dairy,6-May-22,12-May-22,E21,Farm,UK,Cow,
+LNM293,Hill_farm_pagewood_core,Hill Farm Real Food,"53.14424878045988, -2.621259142973646",CW6 9LL,Cheese_pair_12,Dairy,6-May-22,12-May-22,E21,Farm,UK,Cow,
+LNM294,Hill_farm_pagewood_rind,Hill Farm Real Food,"53.14424878045988, -2.621259142973646",CW6 9LL,Cheese_pair_12,Dairy,6-May-22,12-May-22,E21,Farm,UK,Cow,
+LNM295,Hill_farm_cultured_cream,Hill Farm Real Food,"53.14424878045988, -2.621259142973646",CW6 9LL,Cheese_pair_12,Dairy,6-May-22,12-May-22,E21,Farm,UK,Cow,
+LNM296,Kombucha,Home,"51.488660610075115, -0.19601021510185732",Earls Court,Bring_the_booch,Drink,13-May-22,13-May-22,E22,Home,UK,NA,7
+LNM297,NEG_CTRL,Lab,"51.49961449780279, -0.17585086975623193",ICL,,Dairy,11-May-22,13-May-22,E22,Lab,UK,NA,NA
+LNM298,Raw_cow_milk,Fen Farm Dairy,"52.443625917054675, 1.430970224582356",Bungay,Cheese_evolution_7,Dairy,11-May-22,13-May-22,E22,Farm,UK,Cow,0
+LNM299,Raw_cultured_butter,Fen Farm Dairy,"52.443625917054675, 1.430970224582356",Bungay,Cheese_evolution_7,Dairy,11-May-22,12-May-22,E21,Farm,UK,Cow,10
+LNM300,Raw_mascarpone,Fen Farm Dairy,"52.443625917054675, 1.430970224582356",Bungay,Cheese_evolution_7,Dairy,11-May-22,12-May-22,E21,Farm,UK,Cow,1
+LNM301,Raw_cow_milk,Fen Farm Dairy,"52.443625917054675, 1.430970224582356",Bungay,Cheese_evolution_7,Dairy,11-May-22,13-May-22,E22,Farm,UK,Cow,0
+LNM302,Raw_cow_milk,Fen Farm Dairy,"52.443625917054675, 1.430970224582356",Bungay,Cheese_evolution_7,Dairy,11-May-22,13-May-22,E22,Farm,UK,Cow,0
+LNM303,Raw_cow_brie_day_0,Fen Farm Dairy,"52.443625917054675, 1.430970224582356",Bungay,Cheese_evolution_7,Dairy,11-May-22,13-May-22,E22,Farm,UK,Cow,0.3
+LNM304,Raw_cow_brie_day_1,Fen Farm Dairy,"52.443625917054675, 1.430970224582356",Bungay,Cheese_evolution_7,Dairy,11-May-22,13-May-22,E22,Farm,UK,Cow,1
+LNM305,Raw_cow_brie_day_6,Fen Farm Dairy,"52.443625917054675, 1.430970224582356",Bungay,Cheese_evolution_7,Dairy,11-May-22,13-May-22,E22,Farm,UK,Cow,6
+LNM306,Raw_cow_brie_day_14,Fen Farm Dairy,"52.443625917054675, 1.430970224582356",Bungay,Cheese_evolution_7,Dairy,11-May-22,13-May-22,E22,Farm,UK,Cow,14
+LNM307,Raw_cow_brie_day_43_wax_paper_rind,Fen Farm Dairy,"52.443625917054675, 1.430970224582356",Bungay,Cheese_evolution_7,Dairy,11-May-22,13-May-22,E22,Farm,UK,Cow,43
+LNM308,Raw_cow_brie_day_43_wax_paper_core,Fen Farm Dairy,"52.443625917054675, 1.430970224582356",Bungay,Cheese_evolution_7,Dairy,11-May-22,13-May-22,E22,Farm,UK,Cow,43
+LNM309,Raw_cow_brie_day_48_burger_paper_rind,Fen Farm Dairy,"52.443625917054675, 1.430970224582356",Bungay,Cheese_evolution_7,Dairy,11-May-22,13-May-22,E22,Farm,UK,Cow,48
+LNM310,Raw_cow_brie_day_48_burger_paper_core,Fen Farm Dairy,"52.443625917054675, 1.430970224582356",Bungay,Cheese_evolution_7,Dairy,11-May-22,13-May-22,E22,Farm,UK,Cow,48
+LNM311,St_Jude_day_1,St_Jude,"52.443625917054675, 1.430970224582356",Bungay,Cheese_evolution_6,Dairy,11-May-22,13-May-22,E22,Small_Cheese,UK,Cow,1
+LNM312,St_Jude_day_2,St_Jude,"52.443625917054675, 1.430970224582356",Bungay,Cheese_evolution_6,Dairy,11-May-22,13-May-22,E22,Small_Cheese,UK,Cow,2
+LNM313,St_Cera_day_7,St_Jude,"52.443625917054675, 1.430970224582356",Bungay,Cheese_evolution_6,Dairy,11-May-22,13-May-22,E22,Small_Cheese,UK,Cow,7
+LNM314,St_Cera_day_21,St_Jude,"52.443625917054675, 1.430970224582356",Bungay,Cheese_evolution_6,Dairy,11-May-22,13-May-22,E22,Small_Cheese,UK,Cow,21
+LNM315,NEG_CTRL,Lab,"51.49961449780279, -0.17585086975623193",London,,Control,13-May-22,13-May-22,E22,Lab,UK,NA,NA
+LNM316,Carrot_kraut_halfway,Fermentary,"51.49633899038959, -0.06987188827932649",Bermondsey_London,Kraut_evolution_1,Vegetable,12-May-22,13-May-22,E22,Small_Ferment,UK,NA,3
+LNM317,Carrot_kraut_done,Fermentary,"51.49633899038959, -0.06987188827932649",Bermondsey_London,Kraut_evolution_1,Vegetable,12-May-22,13-May-22,E22,Small_Ferment,UK,NA,50
+LNM318,Rose_acai_water_kefir,Fermentary,"51.49633899038959, -0.06987188827932649",Bermondsey_London,Kefir_evolution_2,Drink,12-May-22,13-May-22,E22,Small_Ferment,UK,NA,119
+LNM319,Honey_chamomile_water_kefir,Fermentary,"51.49633899038959, -0.06987188827932649",Bermondsey_London,Kefir_evolution_2,Drink,12-May-22,13-May-22,E22,Small_Ferment,UK,NA,172
+LNM320,Jasmine_lemongrass_water_kefir,Fermentary,"51.49633899038959, -0.06987188827932649",Bermondsey_London,Kefir_evolution_2,Drink,12-May-22,13-May-22,E22,Small_Ferment,UK,NA,105
+LNM321,Plain_water_kefir,Fermentary,"51.49633899038959, -0.06987188827932649",Bermondsey_London,Kefir_evolution_2,Drink,12-May-22,13-May-22,E22,Small_Ferment,UK,NA,3
+LNM322,Propagating_water_kefir_grains,Fermentary,"51.49633899038959, -0.06987188827932649",Bermondsey_London,Kefir_evolution_2,Drink,12-May-22,13-May-22,E22,Small_Ferment,UK,NA,
+LNM323,Yellow_mellow_sauce,Fermentary,"51.49633899038959, -0.06987188827932649",Bermondsey_London,,Vegetable,12-May-22,13-May-22,E22,Small_Ferment,UK,NA,358
+LNM324,Jasmine_lemongrass_water_kefir,Fermentary,"51.49633899038959, -0.06987188827932649",Bermondsey_London,Kefir_evolution_2,Drink,12-May-22,13-May-22,E22,Small_Ferment,UK,NA,386
+LNM325,Rose_acai_water_kefir,Fermentary,"51.49633899038959, -0.06987188827932649",Bermondsey_London,Kefir_evolution_2,Drink,12-May-22,13-May-22,E22,Small_Ferment,UK,NA,
+LNM326,Rose_acai_water_kefir,Fermentary,"51.49633899038959, -0.06987188827932649",Bermondsey_London,Kefir_evolution_2,Drink,12-May-22,13-May-22,E22,Small_Ferment,UK,NA,413
+LNM327,Kimchi,Fermentary,"51.49633899038959, -0.06987188827932649",Bermondsey_London,,Vegetable,12-May-22,13-May-22,E22,Small_Ferment,UK,NA,5
+LNM328,Beet_cabbage_kraut,Fermentary,"51.49633899038959, -0.06987188827932649",Bermondsey_London,,Vegetable,12-May-22,13-May-22,E22,Small_Ferment,UK,NA,10
+LNM329,Rye_sourdough_starter,Flor,"51.496313802775056, -0.06971230466505708",Bermondsey_London,Sourdough_2,Grain,12-May-22,13-May-22,E22,Small_Bakery,UK,NA,1
+LNM330,Wheat_sourdough_starter,Flor,"51.496313802775056, -0.06971230466505708",Bermondsey_London,Sourdough_2,Grain,12-May-22,13-May-22,E22,Small_Bakery,UK,NA,1
+LNM331,Kimchi,Flor,"51.496313802775056, -0.06971230466505708",Bermondsey_London,,Vegetable,12-May-22,13-May-22,E22,Small_Bakery,UK,NA,7
+LNM332,Kimchi,Home,"51.49961449780279, -0.17585086975623193",London,,Vegetable,13-May-22,13-May-22,None,House,UK,NA,
+LNM333,NEG_CTRL,Lab,"64.1371569281377, -21.945877896740868",Reykjavik,,Control,24-May-22,24-May-22,E23,Lab,Iceland,NA,NA
+LNM334,Thoralin_starter,Home,"64.1371569281377, -21.945877896740868",Reykjavik,,Dairy,24-May-22,25-May-22,E23,Home,Iceland,Cow,0
+LNM335,Skyr_hour_0,Home,"64.1371569281377, -21.945877896740868",Reykjavik,Lab_Skyr,Dairy,24-May-22,25-May-22,E23,Lab,Iceland,Cow,0
+LNM336,Skyr_hour_1,Home,"64.1371569281377, -21.945877896740868",Reykjavik,Lab_Skyr,Dairy,24-May-22,25-May-22,E23,Lab,Iceland,Cow,0.04
+LNM337,Skyr_hour_2,Home,"64.1371569281377, -21.945877896740868",Reykjavik,Lab_Skyr,Dairy,24-May-22,25-May-22,E23,Lab,Iceland,Cow,0.08
+LNM338,Skyr_hour_3,Home,"64.1371569281377, -21.945877896740868",Reykjavik,Lab_Skyr,Dairy,24-May-22,25-May-22,E23,Lab,Iceland,Cow,0.12
+LNM339,Skyr_hour_4,Home,"64.1371569281377, -21.945877896740868",Reykjavik,Lab_Skyr,Dairy,24-May-22,25-May-22,E23,Lab,Iceland,Cow,0.16
+LNM340,Skyr_hour_5,Home,"64.1371569281377, -21.945877896740868",Reykjavik,Lab_Skyr,Dairy,24-May-22,25-May-22,E23,Lab,Iceland,Cow,0.2
+LNM341,Skyr_hour_6,Home,"64.1371569281377, -21.945877896740868",Reykjavik,Lab_Skyr,Dairy,24-May-22,25-May-22,E23,Lab,Iceland,Cow,0.24
+LNM342,Skyr_hour_21,Home,"64.1371569281377, -21.945877896740868",Reykjavik,Lab_Skyr,Dairy,24-May-22,25-May-22,E23,Lab,Iceland,Cow,0.9
+LNM343,Whey,Farm,"64.99985040134241, -21.62450538897914",Búðardalur,Thorgrimur_Skyr,Dairy,23-May-22,25-May-22,E23,Farm,Iceland,Cow,
+LNM344,Sausage,Farm,"64.99985040134241, -21.62450538897914",Búðardalur,Thorgrimur_Skyr,Meat,23-May-22,25-May-22,E23,Farm,Iceland,NA,
+LNM345,Bread,Farm,"64.99985040134241, -21.62450538897914",Búðardalur,,Grain,23-May-22,25-May-22,E23,Farm,Iceland,NA,0.5
+LNM346,Milk,Farm,"64.99985040134241, -21.62450538897914",Búðardalur,Thorgrimur_Skyr,Dairy,23-May-22,25-May-22,E23,Farm,Iceland,Cow,0
+LNM347,Skyr_starter,Farm,"64.99985040134241, -21.62450538897914",Búðardalur,Thorgrimur_Skyr,Dairy,23-May-22,25-May-22,E23,Farm,Iceland,Cow,1
+LNM348,Skyr_hour_0,Farm,"64.99985040134241, -21.62450538897914",Búðardalur,Thorgrimur_Skyr,Dairy,23-May-22,25-May-22,E23,Farm,Iceland,Cow,0
+LNM349,Skyr_starter_May1,Farm,"64.99985040134241, -21.62450538897914",Búðardalur,Thorgrimur_Skyr,Dairy,23-May-22,25-May-22,E23,Farm,Iceland,Cow,24
+LNM350,Skyr_starter_May9,Farm,"64.99985040134241, -21.62450538897914",Búðardalur,Thorgrimur_Skyr,Dairy,23-May-22,25-May-22,E23,Farm,Iceland,Cow,16
+LNM351,Skyr_starter_May16,Farm,"64.99985040134241, -21.62450538897914",Búðardalur,Thorgrimur_Skyr,Dairy,23-May-22,25-May-22,E23,Farm,Iceland,Cow,9
+LNM352,Skyr_hour_1,Farm,"64.99985040134241, -21.62450538897914",Búðardalur,Thorgrimur_Skyr,Dairy,23-May-22,25-May-22,E23,Farm,Iceland,Cow,0.04
+LNM353,Skyr_hour_2,Farm,"64.99985040134241, -21.62450538897914",Búðardalur,Thorgrimur_Skyr,Dairy,23-May-22,25-May-22,E23,Farm,Iceland,Cow,0.08
+LNM354,Skyr_hour_3,Farm,"64.99985040134241, -21.62450538897914",Búðardalur,Thorgrimur_Skyr,Dairy,23-May-22,25-May-22,E23,Farm,Iceland,Cow,0.13
+LNM355,Skyr_hour_4,Farm,"64.99985040134241, -21.62450538897914",Búðardalur,Thorgrimur_Skyr,Dairy,23-May-22,25-May-22,E23,Farm,Iceland,Cow,0.17
+LNM356,Skyr_hour_5,Farm,"64.99985040134241, -21.62450538897914",Búðardalur,Thorgrimur_Skyr,Dairy,23-May-22,25-May-22,E23,Farm,Iceland,Cow,0.21
+LNM357,Skyr_hour_24,Farm,"64.99985040134241, -21.62450538897914",Búðardalur,Thorgrimur_Skyr,Dairy,24-May-22,25-May-22,E23,Farm,Iceland,Cow,1
+LNM358,Kea,Kea,"63.93912159508275, -20.981830175165307",Reykjavík,,Dairy,21-May-22,25-May-22,E23,Industrial,Iceland,Cow,1
+LNM359,Isey,Isey,"63.93912159508275, -20.981830175165307",Austurvegur,,Dairy,21-May-22,25-May-22,E23,Industrial,Iceland,Cow,1
+LNM360,Hakarl_big,Home,"64.98234100332701, -23.041224441188444",Reykjavík,,Fish,21-May-22,25-May-22,E23,Home,Iceland,NA,90
+LNM361,Hakarl_ground,Home,"65.6600719837084, -20.283508550673474",Reykjavík,,Fish,21-May-22,25-May-22,E23,Home,Iceland,NA,90
+LNM362,Kombucha,Home,"64.14528228950765, -21.95976712055231",Reykjavík,Bring_the_booch,Drink,25-May-22,25-May-22,E23,Home,Iceland,NA,7
